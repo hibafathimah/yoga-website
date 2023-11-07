@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200&family=Quicksand:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&family=Abril+Fatface&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200&family=Quicksand:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&family=Abril+Fatface&family=Hind:wght@300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200&family=Quicksand:wght@500;600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.nav-contents {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.logo-inner {
+    display: flex;
+    gap: 8px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style: none;
+}
+.ho {
+    display: inline;
+}
+
+a {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 4px 16px;
+}
+
+.signup {
+    border-radius: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.banner-area {
+    background-color: rgb(222, 232, 230);
+    max-width: 1290px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 49px;
+}
+
+.left-banner {
+    width: 620px;
+    height: 560px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right-banner {
+    width: 620px;
+    height: 560px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meditation {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+
+.discover {
+    width: 560px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 38px;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+    line-height: 38px;
+}
+
+.unlock {
+
+    width: 460px;
+    height: 40px;
+    font-family: 'AR One Sans', sans-serif;
+    position: absolute;
+    top: 315px;
+    left: 90px;
+    line-height: 18px;
+    font-weight: 100;
+}
+
+.disc {
+    width: 20px;
+    height: 20px;
+
+}
+
+.offer {
+    background-color: rgb(245, 208, 223);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    top: 390px;
+    left: 110px;
+    border-radius: 20px;
+
+}
+
+.jl {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    size: 40px;
+    gap: 20px;
+}
+
+.join {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'AR One Sans', sans-serif;
+    box-shadow: 5px -1px 7px 2px rgba(189, 222, 203, 0.57);
+}
+
+.learn {
+    border-radius: 8px;
+    font-family: 'AR One Sans', sans-serif;
+    color: black;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px -1px 7px 2px rgba(189, 222, 203, 0.57);
+}
+
+.yogi {
+    position: absolute;
+    top: 120px;
+    right: 90px;
+}
+
+.second {
+    max-width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec-head {
+    font-family: 'Hind', sans-serif;
+    position: absolute;
+    top: 720px;
+    left: 65px;
+}
+
+.post-one,
+.post-two,
+.post-three,
+.post-four {
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    margin-top: 120px;
+}
+
+.box {
+    width: 250px;
+    height: 80px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.opac {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.8;
+}
+
+.rate {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+}
+
+.rat {
+    width: 55px;
+    height: 55px;
+    align-items: start;
+}
+
+.third {
+    width: 1290px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(45, 109, 96);
+}
+
+.hi {
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.fa {
+
+    margin: auto;
+    width: 800px;
+    height: 30px;
+    font-size: 24px;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.ma {
+
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    height: 90px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    line-height: 25px;
+    font-family: 'poppins', sans-serif;
+    margin-top: 17px;
+}
+
+.ba {
+    background-color: yellow;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(./images/tuduuu.PNG);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.fourth {
+    position: relative;
+    max-width: 100%;
+    height: 600px;
+    margin-top: 180px;
+}
+
+.ta {
+    width: 1250px;
+    height: 580px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.forth-one {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 300px;
+    height: 50px;
+    font-family: 'poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 550;
+}
+
+.forth-two {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 400px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-big {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    justify-content: space-between;
+}
+
+.big {
+    background-color: rgb(170, 204, 197);
+    width: 270px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.yo-one,
+.yo-two,
+.yo-three,
+.yo-four {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.big-box {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    width: 270px;
+    height: 70px;
+    position: absolute;
+    top: 190px;
+}
+
+.big-box-one {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 15px
+}
+
+.big-box-two {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 15px
+}
+
+.fifth {
+    display: flex;
+    flex-direction: row;
+    width: 1190px;
+    height: 300px;
+    background-color: rgb(21, 70, 60);
+    margin: auto;
+    justify-content: space-between;
+}
+
+.fif-one {
+    height: 280px;
+    width: 580px;
+    position: relative;
+}
+
+.fif-two {
+    height: 280px;
+    width: 580px;
+    margin-top: 10px;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.lulu {
+    position: absolute;
+    bottom: 1px;
+}
+
+.free {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tuto {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.get {
+    font-weight: 100;
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sixth {
+    max-width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.quo {
+    position: absolute;
+    top: 50px;
+    left: 540px;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+
+.quote {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: auto;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    text-align: center;
+}
+
+.sarah {
+    position: absolute;
+    top: 250px;
+    left: 570px;
+    width: 100px;
+    height: 100px;
+}
+.seventh{
+    background-color: rgb(199, 228, 211);
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.studio{
+    width: 300px;
+    height: 400px;
+}
+.inner{
+    display: flex;
+    gap: 8px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.we{
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 110px;
+    left: 70px;
+
+}
+.follow{
+    position: absolute;
+    top: 240px;
+    left: 70px;
+}
+.fti{
+    position: absolute;
+    top: 270px;
+    left: 70px;
+}
+.fb,.ins,.twi{
+    width: 25px;
+    height: 25px;
+
+}
+.studio-two{
+    position: relative;
+    width: 180px;
+    height: 400px;
+}
+.studio-three{
+    position: relative;
+    width: 180px;
+    height: 400px;
+}
+.studio-four{
+    position: relative;
+    width: 180px;
+    height: 400px;
+}
+.studio-five{
+    position: relative;
+    width: 460px;
+    height: 400px;
+}
+.quick{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.resources{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.social{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.news{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.letter{
+    position: absolute;
+    top: 96px;
+    left: 40px;
+}
+input{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    position: absolute;
+    top: 155px;
+    left: 40px;
+    border: none;
+}
+.sea{
+    font-weight: 40;
+    font-size: 12px;
+    position: absolute;
+    top: 154px;
+    left: 255px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
